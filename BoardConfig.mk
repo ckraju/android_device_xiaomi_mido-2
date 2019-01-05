@@ -47,5 +47,8 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
+# Vendor Security Patch
+VENDOR_SECURITY_PATCH := 2018-11-01
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/mido/BoardConfigVendor.mk
